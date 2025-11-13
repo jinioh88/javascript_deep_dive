@@ -1,9 +1,5 @@
-var x = 'global';
+console.log(personalbar.prototype);
 
-function foo() {
-    console.log(x);
-    var x = 'local';
+function Person(name) {
+    this.name = name;
 }
-
-foo();
-console.log(x);
